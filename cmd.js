@@ -19,6 +19,7 @@ if (argv.list || argv.l) {
     .pipe(JSONStream.parse('rows.*.key', function (tuple) { 
       return tuple[1] + ', '; 
     }))
+    .on('end', console.log)
     .pipe(process.stdout);
 }
 
