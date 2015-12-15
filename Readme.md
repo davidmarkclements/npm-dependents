@@ -10,7 +10,7 @@ potential usefulness.
 ## Install
 
 ```sh
-[sudo] npm -g install npm-dependants
+[sudo] npm -g install npm-dependents
 ```
 
 ## Usage
