@@ -2,8 +2,17 @@
   "name": "npm-dependents",
   "bin": "./cmd.js",
   "version": "1.0.1",
-  "description": "",
+  "description": "Command line tool to view the dependents of a module on npm",
   "main": "index.js",
+  "keywords": [
+    "npm",
+    "dependency",
+    "dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmarkclements/npm-dependents"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
